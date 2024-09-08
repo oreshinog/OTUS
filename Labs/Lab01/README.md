@@ -1,4 +1,4 @@
-#Лабораторная работа №1. Базовая настройка коммутатора 
+# Лабораторная работа №1. Базовая настройка коммутатора 
 
 [**Файл Cisco Packet Tracer**](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab01/Pkt/lab01.pkt)
 
