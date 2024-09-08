@@ -22,7 +22,7 @@
 ### Шаг 1.1.Создайте сеть согласно топологии.
 
 1.1.a.Подсоедините консольный кабель, как показано в топологии. На данном этапе не подключайте кабель Ethernet компьютера PC-A.
-![](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab01/Img/img1.png)
+![Console](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab01/Img/img1.png)
 1.1.b.Установите консольное подключение к коммутатору с компьютера PC-A с помощью Tera Term или другой программы эмуляции терминала.
 
 ![Терминал](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab01/Img/img2.png)
