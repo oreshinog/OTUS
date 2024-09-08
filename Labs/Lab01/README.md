@@ -1,7 +1,7 @@
 **Лабораторная работа. Базовая настройка коммутатора**
 
 # Топология
-![Топология](https://github.com/oreshinog/Lab/Lab01/Img/lab1.png)
+![Топология](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab01/Img/img1.png)
 # Таблица адресации
 |Устройство|Интерфейс|IP-адрес / префикс|
 |--|--|--|
