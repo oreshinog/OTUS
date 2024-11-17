@@ -253,6 +253,10 @@ PC-B static
 
 ![PC-B static2](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img07.png)
 
+![PC-B SLAAC1](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img08.png)
+
+![PC-B SLAAC2](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img09.png)
+
 ### Часть 2.Проверка сквозного подключения
 С PC-A отправьте эхо-запрос на **FE80::1**. Это локальный адрес канала, назначенный G0/1 на R1.
 ```
