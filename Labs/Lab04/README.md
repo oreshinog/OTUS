@@ -237,7 +237,7 @@ Vlan1 is up, line protocol is up
 **Примечание**. При выполнении работы в среде Cisco Packet Tracer установите статический и SLACC адреса на компьютеры последовательно, отразив результаты в отчете
 PC-A static
 
-![PC-A static1](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img02.png){width=340 height=350}
+![PC-A static1](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img02.png)
 
 ![PC-A static2](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img03.png)
 
