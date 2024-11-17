@@ -253,6 +253,8 @@ PC-B static
 
 ![PC-B static2](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img07.png)
 
+PC-B SLAAC
+
 ![PC-B SLAAC1](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img08.png)
 
 ![PC-B SLAAC2](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img09.png)
