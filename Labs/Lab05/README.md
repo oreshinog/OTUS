@@ -31,7 +31,7 @@
 В части 1 потребуется настроить топологию сети и основные параметры, такие как IP-адреса интерфейсов, доступ к устройствам и пароли на маршрутизаторе.
 ### Шаг 1.1.Создайте сеть согласно топологии.
 
-![Топология](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/img00.png)
+![Топология](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/Img00.png)
 
 ### Шаг 1.2.Выполните инициализацию и перезагрузку маршрутизатора и коммутатора.
 
@@ -101,11 +101,11 @@ Building configuration...
 ### Шаг 1.4.Настройте компьютер PC-A.
 1.4.a.Настройте для PC-A IP-адрес и маску подсети.
 
-![PC-A_IP](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/img01.png)
+![PC-A_IP](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/Img01.png)
 
 1.4.b.Настройте для PC-A шлюз по умолчанию.
 
-![PC-A_GW](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/img02.png)
+![PC-A_GW](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/Img02.png)
 
 ### Шаг 1.5.Проверьте подключение к сети.
 
@@ -194,9 +194,9 @@ Building configuration...
 
 2.6.b.Установите SSH-подключение к R1. Use the username **admin** and password **Adm1nP@55**. У вас должно получиться установить SSH-подключение к R1.
 
-![PC-A_SSH1](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/img03.png)
+![PC-A_SSH1](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/Img03.png)
   
-![PC-A_SSH2](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/img04.png)
+![PC-A_SSH2](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/Img04.png)
 
 Закройте окно настройки.
 
@@ -313,9 +313,9 @@ S1(config-line)#transport input ssh
 
 Запустите программу Tera Term на PC-A, затем установите подключение по протоколу SSH к интерфейсу SVI коммутатора S1.
 
-![PC-A_SSH3](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/img05.png)
+![PC-A_SSH3](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/Img05.png)
   
-![PC-A_SSH4](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/img06.png)
+![PC-A_SSH4](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/Img06.png)
 
 #### Вопрос:
 
