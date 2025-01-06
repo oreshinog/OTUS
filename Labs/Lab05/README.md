@@ -46,54 +46,52 @@ Router#
 ```
 Router#conf t
 Enter configuration commands, one per line. End with CNTL/Z.
-Router(config)#hostname R1
-R1(config)#
 ```
 1.3.c.Отключите поиск DNS, чтобы предотвратить попытки маршрутизатора неверно преобразовывать введенные команды таким образом, как будто они являются именами узлов.
 ```
-R1(config)#no ip domain lookup
+Router(config)#no ip domain lookup
 ```
 1.3.d.Назначьте **class** в качестве зашифрованного пароля привилегированного режима EXEC.
 ```
-R1(config)#enable secret class
+Router(config)#enable secret class
 ```
 1.3.e.Назначьте **cisco** в качестве пароля консоли и включите вход в систему по паролю.
 ```
-R1(config)#line con 0
-R1(config-line)#pass cisco
-R1(config-line)#login
+Router(config)#line con 0
+Router(config-line)#pass cisco
+Router(config-line)#login
 ```
 1.3.f.Назначьте **cisco** в качестве пароля VTY и включите вход в систему по паролю.
 ```
-R1(config)#line vty 0 4
-R1(config-line)#pass cisco
-R1(config-line)#login
-R1(config-line)#exit
-R1(config)#line vty 5 15
-R1(config-line)#pass cisco
-R1(config-line)#login
+Router(config)#line vty 0 4
+Router(config-line)#pass cisco
+Router(config-line)#login
+Router(config-line)#exit
+Router(config)#line vty 5 15
+Router(config-line)#pass cisco
+Router(config-line)#login
 ```
 1.3.g.Зашифруйте открытые пароли.
 ```
-R1(config)#service password-encryption
+Router(config)#service password-encryption
 ```
 1.3.h.Создайте баннер, который предупреждает о запрете несанкционированного доступа.
 ```
-R1(config)#banner motd #
+Router(config)#banner motd #
 Unauthorized access is strictly prohibited. #
 ```
 1.3.i.Настройте и активируйте на маршрутизаторе интерфейс G0/0/1, используя информацию, приведенную в таблице адресации.
 ```
-R1(config)#int gi 0/0/1
-R1(config-if)#ip add 192.168.1.1 255.255.255.0
-R1(config-if)#no shu
-R1(config-if)#
+Router(config)#int gi 0/0/1
+Router(config-if)#ip add 192.168.1.1 255.255.255.0
+Router(config-if)#no shu
+Router(config-if)#
 %LINK-5-CHANGED: Interface GigabitEthernet0/0/1, changed state to up
 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0/1, changed state to up
 ```
 1.3.j.Сохраните текущую конфигурацию в файл загрузочной конфигурации.
 ```
-R1#copy running-config startup-config
+Router#copy running-config startup-config
 Destination filename [startup-config]?
 Building configuration...
 [OK]
