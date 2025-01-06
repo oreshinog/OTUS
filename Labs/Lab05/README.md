@@ -1,6 +1,6 @@
 
 # Лабораторная работа - Настройка IPv6-адресов на сетевых устройствах
-![Топология](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab04/Img/img01.png)
+![Топология](https://github.com/oreshinog/OTUS/blob/main/Labs/Lab05/Img/img000.png)
 # Таблица адресации
   
 
