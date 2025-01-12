@@ -553,6 +553,8 @@ R1(config-subif)#
 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0/1.1000, changed state to up
 
 R1(config-subif)#des Own
+R1(config-subif)#encapsulation dot1Q 1000 native
+
 R1(config-subif)#exi
 ```
 
@@ -560,6 +562,7 @@ R1(config-subif)#exi
 R1#sh running-config | section interface GigabitEthernet0/0/1.1000
 interface GigabitEthernet0/0/1.1000
 description Own
+encapsulation dot1Q 1000 native
 no ip address
 R1#
 ```
